@@ -1,7 +1,7 @@
 <!--definiamo il tipo di pagina-->
 <!DOCTYPE html>
 <html lang="en">
-<!--La sezione head contiene tutte le informazioni utili per la gestione della pagina
+         <!--La sezione head contiene tutte le informazioni utili per la gestione della pagina
          • Titolo della pagina (visualizzabile nella barra del browser) ‹title›.‹/title›
          • Collegamento ai fogli di stile (vedremo dettagli in seguito) ‹link›.‹/link>
          • Metadati (cioè informazioni aggiuntive) <meta›...‹/meta>
@@ -9,6 +9,68 @@
          -->
 <head>
          <title> Index of Informatica Applicata Sezione C2 2025F2026 </title>
+         <style>
+                  body {
+                  margin: 0;
+                  padding: 0;
+                  font-family: Inter, Roboto, sans-serif;
+                  color: #333;
+                  text-align: left;
+                  }
+
+                  h1 {
+                  padding: 20px 20px;
+                  font-family: Helvetica, Arial, Roboto, sans-serif;
+                  color: #1b76d1;
+                  }
+
+                  p {
+                  margin: 20px 20px;
+                  font-size: 1.1em;
+                  }
+
+                  ul {
+                  list-style-type: none;
+                  padding: 0 20px;
+                  max-width: 400px;
+                  margin: 0 0 40px 20px;
+                  }
+
+                  ul li {
+                  background: #e5e2e2;
+                  margin: 8px 0;
+                  padding: 12px;
+                  border-radius: 8px;
+                  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                  }
+
+                  ul li:hover {
+                  background-color: #b1b0b0;
+                  }
+
+                  ul li a {
+                  text-decoration: none;
+                  color: #3498db;
+                  font-weight: bold;
+                  transition: color 0.2s;
+                  }
+
+                  ul li a:hover {
+                  color: #1d6fa5;
+                  }
+
+                  a[href*="group-projects"] {
+                  display: block;
+                  text-align: left;
+                  font-size: 1.1em;
+                  margin: 0 20px 40px 20px;
+                  color: #e67e22;
+                  }
+
+                  a[href*="group-projects"]:hover {
+                  color: #c55d0f;
+                  }
+         </style>
 </head>
 <!-- La sezione body contiene la descrizione degli elementi da visualizzare 
 nella pagina web e le loro caratteristiche
@@ -20,7 +82,7 @@ nella pagina web e le loro caratteristiche
 <!-- <p›..‹/p› crea un paragrafo di testo (con spaziatura prima e dopo)
 • ‹/br> indica semplicemente di creare una nuova linea ("a capo")-->
 
-         <p align="center">We are going to keep track of our progress here</p>
+         <p>We are going to keep track of our progress here</p>
 
 <ul>
          <li><a href="lezione1/lezione1.html">Class 1</a></li>
